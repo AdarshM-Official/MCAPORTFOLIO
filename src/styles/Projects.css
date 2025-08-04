@@ -1,0 +1,11 @@
+/* src/styles/Projects.css */
+.projects-container {
+  padding: 2rem;
+  background-color: #fff3e0;
+}
+
+.projects-container ul {
+  list-style-type: circle;
+  margin-left: 2rem;
+}
+    
