@@ -1,6 +1,7 @@
 import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import "./HeroHeader33_drLQdxpu.css";
+import bgimage from "./IMG-20250806-WA0068.jpg";
 
 const logos = [
 	{
@@ -42,31 +43,30 @@ const HeroHeader33_drLQdxpu = () => {
 			className="ezy__header33_drLQdxpu"
 			style={{
 				backgroundImage:
-					"url(https://cdn.easyfrontend.com/pictures/hero/header33-bg.jpg)",
+					// "url(IMG-20250806-WA0068.jpg)",
+					`url(${bgimage})`,
 			}}
 		>
 			<div className="ezy__header33_drLQdxpu-overlay" />
 			<Container>
 				<Row>
 					<Col xs={12} md={9} lg={7}>
-						<h2 className="ezy__header33_drLQdxpu-heading mb-4">The Desert is my DNA</h2>
+						<h2 className="ezy__header33_drLQdxpu-heading mb-4">WELCOME TO MCA 2024</h2>
 						<Row>
 							<Col xs={12} md={7} lg={8}>
 								<p className="ezy__header33_drLQdxpu-sub-heading mb-5">
-									An activity that requires a person's mental or physical effort
-									is work.If a person is trained for a certain type of job, they
-									may have a job or profession which suits.
+									Welcome to a community of growth, where teaching is a journey we take together — exploring, discovering, and achieving side by side.
 								</p>
 							</Col>
 						</Row>
 						<Row>
 							<Col xs={12} md={10} lg={6}>
-								<Button
+								{/* <Button
 									variant=""
 									className="ezy__header33_drLQdxpu-btn rounded-pill w-100"
 								>
 									Know More about us
-								</Button>
+								</Button> */}
 							</Col>
 						</Row>
 					</Col>

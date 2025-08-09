@@ -5,12 +5,15 @@ import { faStar, faStarHalfAlt } from "@fortawesome/free-solid-svg-icons";
 import classNames from "classnames";
 import PropTypes from "prop-types";
 import "./Testimonial4_cu3wTvmq.css";
+import saranyamiss from "./saranyamiss.jpg";
+import renjinimiss from "./renjinimiss.jpg";
+import harisir from "./harisir.jpg";
 
 const testimonialList = [
 	{
 		author: {
-			fullName: "Akshay Kumar",
-			picture: "https://cdn.easyfrontend.com/pictures/users/user28.jpg",
+			fullName: "Saranya Miss",
+			picture: saranyamiss,
 			designation: "Founder / CEO",
 		},
 		rating: 3.5,
@@ -20,7 +23,7 @@ const testimonialList = [
 	{
 		author: {
 			fullName: "Raima Sen",
-			picture: "https://cdn.easyfrontend.com/pictures/users/user7.jpg",
+			picture: renjinimiss,
 			designation: "Business Head",
 		},
 		rating: 4,
@@ -30,7 +33,7 @@ const testimonialList = [
 	{
 		author: {
 			fullName: "Arjun Kapur",
-			picture: "https://cdn.easyfrontend.com/pictures/users/user26.jpg",
+			picture: harisir,
 			designation: "UI Design",
 		},
 		rating: 5,
@@ -100,11 +103,10 @@ const Testimonial4_cu3wTvmq = () => {
 				<Row className="justify-content-center mb-4 mb-md-5">
 					<Col lg={6} xl={5} className="text-center">
 						<h2 className="ezy__testimonial4_cu3wTvmq-heading mb-3">
-							Community Reviews
+							Our Faculty Testimonials
 						</h2>
 						<p className="ezy__testimonial4_cu3wTvmq-sub-heading mb-0">
-							Assumenda non repellendus distinctio nihil dicta sapiente,
-							quibusdam maiores, illum at qui.
+							Here's what our faculty members have to say about their experience with us.
 						</p>
 					</Col>
 				</Row>

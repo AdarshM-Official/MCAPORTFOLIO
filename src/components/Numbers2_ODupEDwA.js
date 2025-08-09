@@ -5,25 +5,25 @@ import "./Numbers2_ODupEDwA.css";
 
 const cards = [
 	{
-		count: "432",
-		title: "Completed Event",
+		count: "33",
+		title: "Total Students",
 		detail:
-			"Partner removes the hassle and confusion that comes from managing.",
+			"We are Currently guiding 33 students towards academic excellence.",
 	},
 	{
-		count: "758",
-		title: "Game Completed",
+		count: "5",
+		title: "Teachers",
 		detail:
-			"It’s no secret that the digital. From exciting startups to global brands.",
+			"Shaping curious minds for a brighter tomorrow.",
 	},
 	{
 		count: "31+",
-		title: "Completed Fund",
-		detail: "Sed ut in perspiciatis unde omnis istema natus error sit tatem.",
+		title: "Papers",
+		detail: "Drowning in papers but at least I’m literate.",
 	},
 	{
-		count: "994+",
-		title: "Completed Ticket",
+		count: "1600+",
+		title: "Hours",
 		detail:
 			"Viverra tellus in hac habitasse platea dictumst tempor id eu nisl.",
 	},
@@ -72,12 +72,11 @@ const Numbers2_ODupEDwA = () => {
 					<Col xs={12} lg={6}>
 						<div className="ezy__numbers2_ODupEDwA-contents-wrapper">
 							<h1 className="ezy__numbers2_ODupEDwA-heading mb-3">
-								Some Important Numbers
+								Our Numbers
 							</h1>
 							<p className="ezy__numbers2_ODupEDwA-sub-heading mb-5">
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-								quod perferendis nihil cupiditate aliquid qui exercitationem
-								labore veritatis eaque nobis libero earum.
+								Lets take a look at some of the numbers that defines our students, faculties and
+								our college.
 							</p>
 						</div>
 

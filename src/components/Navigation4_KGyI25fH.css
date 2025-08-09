@@ -36,6 +36,7 @@
 .ezy__nav4_KGyI25fH .navbar-brand {
 	font-weight: 800;
 	font-size: 30px;
+	margin-left: -30px;
 	color: var(--bs-body-color);
 }
 
@@ -97,6 +98,7 @@
 .ezy__nav4_KGyI25fH .navbar-nav .nav-link {
 	color: var(--bs-body-color);
 	opacity: 0.6;
+	font-weight: bolder;
 }
 
 .ezy__nav4_KGyI25fH .navbar-nav .nav-link:hover,
@@ -104,6 +106,7 @@
 .ezy__nav4_KGyI25fH .navbar-nav .nav-link.active {
 	color: var(--bs-body-color);
 	opacity: 1;
+	font-weight: bolder;
 }
 
 @media (min-width: 992px) {

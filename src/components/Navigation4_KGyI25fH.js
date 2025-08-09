@@ -4,10 +4,10 @@ import PropTypes from "prop-types";
 import "./Navigation4_KGyI25fH.css";
 
 const routes = [
-	{ name: "Home", href: "#" },
-	{ name: "Services", href: "#" },
-	{ name: "Why us?", href: "#" },
-	{ name: "How It Works", href: "#" },
+	{ name: "HOME", href: "#" },
+	{ name: "TEACHERS", href: "#" },
+	{ name: "STUDENTS", href: "#" },
+	{ name: "OUR GALLERY", href: "#" },
 ];
 
 const NavMenu = ({ routes, children }) => (
@@ -41,7 +41,7 @@ const Navigation4_KGyI25fH = () => {
 		<div className="ezy__nav4_KGyI25fH">
 			<Navbar expand="lg" className="py-3">
 				<Container>
-					<Navbar.Brand href="#">LOGO</Navbar.Brand>
+					<Navbar.Brand href="#">MCA 2024-26</Navbar.Brand>
 					<Navbar.Toggle aria-controls="ezy__nav4_KGyI25fH-navbar-nav">
 						<span>
 							<span />
