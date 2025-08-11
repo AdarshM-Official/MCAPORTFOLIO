@@ -50,15 +50,15 @@ const HeroHeader33_drLQdxpu = () => {
 			<div className="ezy__header33_drLQdxpu-overlay" />
 			<Container>
 				<Row>
-					<Col xs={12} md={9} lg={7}>
+					<Col xs={12} md={9} lg={7} style={{ margin: "auto" }}>
 						<h2 className="ezy__header33_drLQdxpu-heading mb-4">WELCOME TO MCA 2024</h2>
-						<Row>
+						{/* <Row>
 							<Col xs={12} md={7} lg={8}>
-								<p className="ezy__header33_drLQdxpu-sub-heading mb-5">
+								<p className="ezy__header33_drLQdxpu-sub-heading mb-5" style={{ margin: "auto" }}>
 									Welcome to a community of growth, where teaching is a journey we take together — exploring, discovering, and achieving side by side.
 								</p>
 							</Col>
-						</Row>
+						</Row> */}
 						<Row>
 							<Col xs={12} md={10} lg={6}>
 								{/* <Button

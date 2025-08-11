@@ -6,16 +6,13 @@
 	/* Easy Frontend variables */
 	--ezy-theme-color: rgb(13, 110, 253);
 	--ezy-theme-color-rgb: 13, 110, 253;
-
 	background-color: var(--bs-body-bg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: right;
-
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
 	color: #fff;
 	overflow: hidden;
 	position: relative;
@@ -32,6 +29,8 @@
 	font-weight: bold;
 	font-size: 32px;
 	line-height: 1.2;
+	width: 100%;
+	text-align: center;
 	letter-spacing: 1px;
 }
 
@@ -44,6 +43,7 @@
 .ezy__header33_drLQdxpu-sub-heading {
 	font-size: 17px;
 	line-height: 1.8;
+	margin: auto;
 }
 
 .ezy__header33_drLQdxpu-overlay {
@@ -53,8 +53,8 @@
 	right: 0;
 	bottom: 0;
 	background: linear-gradient(
-		130deg,
-		rgba(var(--ezy-theme-color-rgb), 0.35),
+		120deg,
+		rgba(var(--ezy-theme-color-rgb), 0.25),
 		rgba(0, 0, 0, 0.631)
 	);
 	z-index: -1;

@@ -1,4 +1,4 @@
-const techers = () => {
+const Teachers = () => {
     return (
         <div>
             <h1>Teachers Page</h1>
@@ -6,3 +6,5 @@ const techers = () => {
         </div>
     );
 }
+
+export default Teachers;

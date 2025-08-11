@@ -1,0 +1,28 @@
+<button class="magnetic-btn">Hover Me</button>
+
+<style>
+.magnetic-btn {
+  padding: 15px 30px;
+  border: none;
+  background: linear-gradient(45deg, #ff6b6b, #f7d794);
+  color: white;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  position: relative;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+</style>
+
+<script>
+const btn = document.querySelector('.magnetic-btn');
+btn.addEventListener('mousemove', (e) => {
+  const rect = btn.getBoundingClientRect();
+  const x = e.clientX - rect.left - rect.width / 2;
+  const y = e.clientY - rect.top - rect.height / 2;
+  btn.style.transform = `translate(${x * 0.2}px, ${y * 0.2}px)`;
+});
+btn.addEventListener('mouseleave', () => {
+  btn.style.transform = `translate(0, 0)`;
+});
+</script>

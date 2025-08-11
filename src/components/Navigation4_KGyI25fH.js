@@ -5,7 +5,7 @@ import "./Navigation4_KGyI25fH.css";
 
 const routes = [
 	{ name: "HOME", href: "#" },
-	{ name: "TEACHERS", href: "#" },
+	{ name: "TEACHERS", href: "/teachers" },
 	{ name: "STUDENTS", href: "#" },
 	{ name: "OUR GALLERY", href: "#" },
 ];
