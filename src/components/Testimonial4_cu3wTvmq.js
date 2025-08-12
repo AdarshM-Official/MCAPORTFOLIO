@@ -14,31 +14,30 @@ const testimonialList = [
 		author: {
 			fullName: "Saranya Miss",
 			picture: saranyamiss,
-			designation: "Founder / CEO",
+			designation: "Associate Professor",
 		},
 		rating: 3.5,
 		description:
-			"Land. Stars land every there was together very fifth, above greater also replenish seas good was second divide which beast abundantly blessed don't fifth us given make called gathering fowl. The gathered, hath. Which appear said there saw fish so Above. Light made is sea yielding let he that whose.",
+			"It has been a privilege to teach the MCA batch of 2024–2026. Throughout the course, this class has shown remarkable enthusiasm for learning, adaptability to challenges, and a collaborative spirit that has set them apart. Each member brought their unique strengths, yet worked together to achieve common goals, reflecting true teamwork and professionalism. I am confident that this talented group will carry forward the values of dedication, curiosity, and integrity into their careers, making meaningful contributions to the industry and society.",
 	},
 	{
 		author: {
-			fullName: "Raima Sen",
+			fullName: "Renjini Miss",
 			picture: renjinimiss,
-			designation: "Business Head",
+			designation: "Associate Professor",
 		},
 		rating: 4,
 		description:
-			"Heaven day created don't kind darkness that which midst us created every. Shall good brought grass that bearing said fowl sixth them abundantly. Dominion. Every gathering so said forth doesn't all from. It tree. Have subdue third let void let gathering creepeth. Be saw appear. Day every it fruitful life.",
+			"The MCA 2024–2026 batch has been one of the most vibrant and inspiring groups I have had the pleasure to guide. Their eagerness to embrace new technologies, willingness to ask thought-provoking questions, and ability to translate theory into practical solutions have been truly impressive. This class has shown resilience in the face of challenges and creativity in every project they undertook. I am certain that each of them will step into the professional world with confidence, ready to make a positive impact wherever they go.",
 	},
 	{
 		author: {
-			fullName: "Arjun Kapur",
+			fullName: "Hari Sir",
 			picture: harisir,
-			designation: "UI Design",
+			designation: "Head of Department",
 		},
 		rating: 5,
-		description:
-			"It’s easier to reach your savings goals when you have the right savings account. Take a look and find the right one for you.It’s easier to reach your savings goals when you have the right savings account. Take a look and find the right one for youIt’s easier to reach your savings goals when you have the right savings account. Take a look and find the right one for you!",
+		description:"Teaching the MCA 2024–2026 batch has been an enriching experience. This group has stood out for their determination to learn, their collaborative mindset, and their ability to approach problems with both logic and creativity. They have shown maturity in handling academic challenges and enthusiasm in exploring emerging trends in technology. I have no doubt that their strong foundation and passion for growth will help them excel in every endeavor they pursue"
 	},
 ];
 

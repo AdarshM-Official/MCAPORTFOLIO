@@ -13,7 +13,7 @@ import "./Footer1_97SQaMJ8.css";
 const navigations = [
 	{
 		value: "Home",
-		href: "#!",
+		href: "/",
 	},
 	{
 		value: "About",

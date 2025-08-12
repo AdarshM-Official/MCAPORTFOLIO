@@ -1,28 +1,50 @@
-<button class="magnetic-btn">Hover Me</button>
 
-<style>
-.magnetic-btn {
-  padding: 15px 30px;
-  border: none;
-  background: linear-gradient(45deg, #ff6b6b, #f7d794);
-  color: white;
-  border-radius: 30px;
-  font-size: 1.1rem;
-  position: relative;
-  transition: transform 0.2s;
-  cursor: pointer;
-}
-</style>
+	<a href="https://front.codes/" class="logo hover-target" target="_blank">
+		<img src="https://assets.codepen.io/1462889/fcb.png" alt="">
+	</a>
 
-<script>
-const btn = document.querySelector('.magnetic-btn');
-btn.addEventListener('mousemove', (e) => {
-  const rect = btn.getBoundingClientRect();
-  const x = e.clientX - rect.left - rect.width / 2;
-  const y = e.clientY - rect.top - rect.height / 2;
-  btn.style.transform = `translate(${x * 0.2}px, ${y * 0.2}px)`;
-});
-btn.addEventListener('mouseleave', () => {
-  btn.style.transform = `translate(0, 0)`;
-});
-</script>
+	<div class="section full-height over-hide px-4 px-sm-0">
+		<div class="container">
+			<div class="row full-height justify-content-center">
+				<div class="col-lg-10 col-xl-8 align-self-center padding-tb">
+					<div class="section mx-auto text-center slider-height-padding">
+			          	<input class="checkbox frst" type="radio" id="slide-1" name="slider" checked/>
+			          	<label for="slide-1"></label>
+			          	<input class="checkbox scnd" type="radio" name="slider" id="slider-2"/>
+			          	<label for="slider-2"></label>
+			          	<input class="checkbox thrd" type="radio" name="slider" id="slider-3"/>
+			          	<label for="slider-3"></label>
+			          	<input class="checkbox foth" type="radio" name="slider" id="slider-4"/>
+			          	<label for="slider-4"></label>
+            <input class="checkbox foth" type="radio" name="slider" id="slider-4"/>
+			          	<label for="slider-4"></label>
+            <input class="checkbox foth" type="radio" name="slider" id="slider-4"/>
+			          	<label for="slider-4"></label>
+            <input class="checkbox foth" type="radio" name="slider" id="slider-4"/>
+			          	<label for="slider-4"></label>
+            <input class="checkbox foth" type="radio" name="slider" id="slider-4"/>
+			          	<label for="slider-4"></label>
+            <input class="checkbox foth" type="radio" name="slider" id="slider-4"/>
+			          	<label for="slider-4"></label>
+						<ul>
+							<li>
+								<span>MALE GOOFY FACE</span>
+						    </li>
+							<li>
+								<span>TOY PIG</span>
+						    </li>
+							<li>
+								<span>SHY PORTRAIT</span>
+						    </li>
+							<li>
+								<span>SKATEBOARD FACE</span>
+						    </li>
+              							<li>
+								<span>SKATEBOARD FACE</span>
+						    </li>
+					    </ul>
+				    </div>
+			    </div>
+	      	</div>
+	    </div>
+	</div>
