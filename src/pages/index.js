@@ -12,11 +12,12 @@ const Index = () => {
         <Fragment>
 
             <Navigation4_KGyI25fH />
+            <HeroHeader33_drLQdxpu />
 			<Numbers2_ODupEDwA />
 			<Portfolio11_gPbH7Wa0 />
 			<Testimonial4_cu3wTvmq />
 			<Footer1_97SQaMJ8 />
-            <HeroHeader33_drLQdxpu />
+            
 
         </Fragment>
     );
